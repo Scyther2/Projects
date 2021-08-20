@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    background: white;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?city');
+}
+
+.first {
+    background: #000000d1;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 280px;
+    
+    color: white;
+    
+}
+
+h3.city:hover
+{
+    color: cyan;
+    transition: 0.2s ease-in-out;
+}
+
+div.temp:hover
+{
+    color:cyan;
+    transition: 0.2s ease-in-out;
+}
+
+.search
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button
+{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+}
+
+input.search-bar
+{
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    
+    
+}
+
+button:hover
+{
+    background-color: black;
+    color: cyan;
+    transition: 0.2s ease-in-out;
+}
